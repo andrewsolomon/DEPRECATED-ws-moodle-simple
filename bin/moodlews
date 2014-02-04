@@ -1,0 +1,10 @@
+#!/home/starman/perl5/perlbrew/perls/perl-5.18.1/bin/perl -Ilib
+
+use strict;
+use warnings;
+
+use OptArgs qw/dispatch/;
+
+
+
+dispatch(qw/ run WebService::Moodle::Simple::CLI /);
