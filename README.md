@@ -30,5 +30,5 @@ Get users
 Unit Tests
 ==========
 
-* create unit tests and variable WEBSERVICE_MOODLE_SIMPLE_TESTSERVER=moodle.foo.com which only run when it's defined.
+TEST_WSMS_ADMIN_PWD=<admin password> TEST_WSMS_DOMAIN=moodle.site.edu TEST_WSMS_TARGET=<Moodle external service> prove -rlv t/
 

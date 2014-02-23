@@ -10,9 +10,7 @@ unless ($ENV{TEST_WSMS_ADMIN_PWD} && $ENV{TEST_WSMS_DOMAIN} && $ENV{TEST_WSMS_TA
 
 my $moodle = WebService::Moodle::Simple->new( 
   domain   =>  $ENV{TEST_WSMS_DOMAIN},
-  port     =>  $ENV{TEST_WSMS_PORT} || 80,
   target   =>  $ENV{TEST_WSMS_TARGET},
-  scheme   => 'http',
 );
 
 is(ref($moodle), 'WebService::Moodle::Simple');
