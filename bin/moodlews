@@ -1,4 +1,7 @@
-#!/home/starman/perl5/perlbrew/perls/perl-5.18.1/bin/perl -Ilib
+#!/usr/bin/env perl
+
+use FindBin;                 # locate this script
+use lib "$FindBin::Bin/../lib";  # use the sibling lib directory
 
 use strict;
 use warnings;
